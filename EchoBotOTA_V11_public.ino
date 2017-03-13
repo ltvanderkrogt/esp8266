@@ -38,9 +38,6 @@ int Red = 13;
 int Green = 12;
 int Switch = 16;
 
-// mac 1a1a7f Gateway_Breskens
-// mac 0dcdeb Webcam_Breskens
-
 // Initialize Wifi connection to the router
 char ssid[] = "****************";             // your network SSID (name)
 char pass[] = "****************";           // your network key
@@ -50,8 +47,9 @@ char pass[] = "****************";           // your network key
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h> 
 #include <ArduinoOTA.h>
-// ************************** End OTA **************************
 
+// ************************** End OTA **************************
+// mac 1a1a7f  
 // ArduinoOTA.setPassword((const char *)"123"); // doesn't work? 
 
 /*
@@ -70,8 +68,6 @@ Create a new bot for your device. https://web.telegram.org/#/im?p=@BotFather
 */
 
 // Initialize Telegram BOT
-// mac 1a1a7f 
-
 
 #define BOTtoken "**********:******************************"  //token of your bot
 #define BOTname "**********"
